@@ -1,0 +1,12 @@
+/Users/guru/Developer/hexstack/templates/wynd-react/backend/target/debug/deps/libwynd-68461dce277ae5d5.rmeta: /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/lib.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/conn/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/conn_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/types_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/wynd_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/types/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/wynd/mod.rs
+
+/Users/guru/Developer/hexstack/templates/wynd-react/backend/target/debug/deps/wynd-68461dce277ae5d5.d: /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/lib.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/conn/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/conn_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/types_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/wynd_test.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/types/mod.rs /Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/wynd/mod.rs
+
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/lib.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/conn/mod.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/mod.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/conn_test.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/types_test.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/tests/wynd_test.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/types/mod.rs:
+/Users/guru/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wynd-0.4.4/src/wynd/mod.rs:
