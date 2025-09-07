@@ -2,20 +2,28 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [hello, setHello] = useState<any>(null);
+  const [ws, setWs] = useState<WebSocket | null>(null);
+  const [input, setInput] = useState<string>("");
+  const [messages, setMessages] = useState<string[]>([]);
 
   useEffect(() => {
     (async () => {
-      const response = await fetch("/hello");
+      const ws = new WebSocket("ws://localhost:3000/hello");
 
-      if (!response.ok) {
-        throw new Error("Failed to fetch");
-      }
+      ws.onopen = () => {
+        setWs(ws);
+      };
 
-      const data = await response.json();
-
-      setHello(data);
+      ws.onmessage = (event) => {
+        setMessages((prev) => [...prev, event.data]);
+      };
     })();
+
+    return () => {
+      if (ws) {
+        ws.close();
+      }
+    };
   }, []);
 
   return (
@@ -23,7 +31,20 @@ function App() {
       <h1>Ripress + React minimal demo</h1>
       <div>
         <h2>/hello</h2>
-        <pre>{hello ? JSON.stringify(hello, null, 2) : "Loading..."}</pre>
+      </div>
+      <div>
+        <div>
+          <input
+            type="text"
+            placeholder="Type something..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button onClick={() => ws?.send(input)}>Send</button>
+        </div>
+        {messages.map((message, index) => (
+          <div key={index}>{message}</div>
+        ))}
       </div>
     </div>
   );
