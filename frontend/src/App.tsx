@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      const ws = new WebSocket("ws://localhost:3000/hello");
+      const ws = new WebSocket("ws://localhost:3000");
 
       ws.onopen = () => {
         setWs(ws);
@@ -28,10 +28,7 @@ function App() {
 
   return (
     <div style={{ padding: 24, fontFamily: "system-ui, sans-serif" }}>
-      <h1>Ripress + React minimal demo</h1>
-      <div>
-        <h2>/hello</h2>
-      </div>
+      <h1>Wynd + React minimal starting point</h1>
       <div>
         <div>
           <input

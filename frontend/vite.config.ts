@@ -8,9 +8,4 @@ export default defineConfig({
     outDir: "../dist",
     emptyOutDir: true,
   },
-  server: {
-    proxy: {
-      "/": "http://localhost:3000",
-    },
-  },
 });
