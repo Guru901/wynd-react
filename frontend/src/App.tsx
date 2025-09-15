@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 
 function App() {
   const [ws, setWs] = useState<WebSocket | null>(null);
